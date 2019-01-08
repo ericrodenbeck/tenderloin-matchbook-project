@@ -4,13 +4,13 @@
  
 <head>
  
-<title>Leaflet Web Map</title>
+<title>Tenderloin Matchbook Project</title>
  
 <!-- reference to Leaflet CSS -->
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css" />
  
 <!-- reference to Leaflet JavaScript -->
-<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"></script>
  
 <!-- set width and height styles for map -->
 <style>
@@ -37,11 +37,11 @@
 <script>
 
     //  create map object, tell it to live in 'map' div and give initial latitude, longitude, zoom values 
-    var map = L.map('map', {scrollWheelZoom:false}).setView([43.64701, -79.39425], 15);
+    var map = L.map('map', {scrollWheelZoom:false}).setView([43.64701, -79.39425], 12);
 
     //  add base map tiles from OpenStreetMap and attribution info to 'map' div
-    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
+    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
     }).addTo(map);
 
     // create custom icon
