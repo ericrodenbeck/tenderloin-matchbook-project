@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+ 
+<title>Leaflet Web Map</title>
+ 
+<!-- reference to Leaflet CSS -->
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+ 
+<!-- reference to Leaflet JavaScript -->
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+ 
+<!-- set width and height styles for map -->
+<style>
+#map {
+    width: 960px;
+    height:500px;
+}
+
+/* css to customize Leaflet default styles  */
+.custom .leaflet-popup-tip,
+.custom .leaflet-popup-content-wrapper {
+    background: #e93434;
+    color: #ffffff;
+}
+</style>
+
+</head>
+
+<body>
+
+    <!-- place holder for map -->
+    <div id="map"></div>
+
+<script>
+
+    //  create map object, tell it to live in 'map' div and give initial latitude, longitude, zoom values 
+    var map = L.map('map', {scrollWheelZoom:false}).setView([43.64701, -79.39425], 15);
+
+    //  add base map tiles from OpenStreetMap and attribution info to 'map' div
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // create custom icon
+    var firefoxIcon = L.icon({
+        iconUrl: 'http://joshuafrazier.info/images/firefox.svg',
+        iconSize: [38, 95], // size of the icon
+        popupAnchor: [0,-15]
+        });
+
+    // create popup contents
+    var customPopup = "Mozilla Toronto Offices<br/><img src='http://joshuafrazier.info/images/maptime.gif' alt='maptime logo gif' width='350px'/>";
+    
+    // specify popup options 
+    var customOptions =
+        {
+        'maxWidth': '500',
+        'className' : 'custom'
+        }
+    
+    // create marker object, pass custom icon as option, pass content and options to popup, add to map
+    L.marker([43.64701, -79.39425], {icon: firefoxIcon}).bindPopup(customPopup,customOptions).addTo(map);
+
+</script>
+
+</body>
