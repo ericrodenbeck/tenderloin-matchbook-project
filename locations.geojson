@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "16th St. Mission (16TH)",
-        "popup": "Placeholder Text<br/><img src='https://ericrodenbeck.github.io/tenderloin-matchbook-project/images/maptime.gif' alt='maptime logo gif' width='350px'/>",
+        "popup": "16th and Mission BART Station<br/><img src='https://ericrodenbeck.github.io/tenderloin-matchbook-project/images/maptime.gif' alt='maptime logo gif' width='350px'/>",
         "description": "2000 Mission Street, San Francisco CA 94110<br></br>\"The Mission\" refers to the San Francisco de Asis Mission, also known as Mission Dolores, which was founded 1776. Today the neighborhood is host to an eclectic mix of restaurants, markets, performance spaces, shops, and nightspots.",
         "timestamp": null,
         "begin": null,
