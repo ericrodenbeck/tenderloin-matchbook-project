@@ -1,29 +1,25 @@
 <!DOCTYPE html>
- 
+
 <html>
- 
+
 <head>
- 
+
 <title>Tenderloin Matchbook Project</title>
- 
+
 <!-- reference to Leaflet CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css" />
- 
+
 <!-- reference to Leaflet JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"></script>
- 
+
+<!-- for loading GeoJSON -->
+<script src="//d3js.org/d3.v4.min.js"></script>
+
 <!-- set width and height styles for map -->
 <style>
 #map {
     width: 960px;
     height:500px;
-}
-
-/* css to customize Leaflet default styles  */
-.custom .leaflet-popup-tip,
-.custom .leaflet-popup-content-wrapper {
-    background: #e93434;
-    color: #ffffff;
 }
 </style>
 
@@ -37,32 +33,24 @@
 <script>
 
     //  create map object, tell it to live in 'map' div and give initial latitude, longitude, zoom values 
-    var map = L.map('map', {scrollWheelZoom:false}).setView([43.64701, -79.39425], 12);
+    var map = L.map('map', {scrollWheelZoom:false}).setView([37.78, -122.42], 14);
 
     //  add base map tiles from OpenStreetMap and attribution info to 'map' div
     L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
     attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
     }).addTo(map);
 
-    // create custom icon
-    var firefoxIcon = L.icon({
-        iconUrl: 'http://joshuafrazier.info/images/firefox.svg',
-        iconSize: [38, 95], // size of the icon
-        popupAnchor: [0,-15]
-        });
-
-    // create popup contents
-    var customPopup = "Mozilla Toronto Offices<br/><img src='https://ericrodenbeck.github.io/tenderloin-matchbook-project/images/P0023_01.jpg' alt='maptime logo gif' width='350px'/>";
-    
-    // specify popup options 
-    var customOptions =
-        {
-        'maxWidth': '500',
-        'className' : 'custom'
+    d3.json("./locations.geojson", function(error, data) {
+      if (error) console.log(error);
+      var geojson = L.geoJSON(data, {
+        onEachFeature: function (feature, layer) {
+          console.log(feature);
+          layer.bindPopup(feature.properties.popup);
         }
-    
-    // create marker object, pass custom icon as option, pass content and options to popup, add to map
-    L.marker([43.64701, -79.39425], {icon: firefoxIcon}).bindPopup(customPopup,customOptions).addTo(map);
+      });
+
+      geojson.addTo(map);
+    });
 
 </script>
 
