@@ -1,6 +1,186 @@
-Name,Description,Image,Longitude,Latitude
-16th St. Mission (16TH),CSV Placeholder Text,maptime.gif,-122.419694,37.765062
-Civic Center/UN Plaza (CIVC),CSV Placeholder Text,P0023_05.jpg,-122.413756,37.779528
-Embarcadero (EMBR),CSV Placeholder Text,maptime.gif,-122.396742,37.792976
-Montgomery St. (MONT),CSV Placeholder Text,maptime.gif,-122.401407,37.789256
-Powell St. (POWL),CSV Placeholder Text,maptime.gif,-122.406857,37.784991
+Name,Description,Image,longitude,latitude
+288 Club,,,-122.4138195,37.7830452
+441 Club,,,-122.4132072,37.7855303
+600 Club,,,-122.4175507,37.7833244
+924 Billiard Club,,,-122.4087024,37.7843455
+Ace Cafe,,,-122.4127554,37.7866232
+Alexander Hamilton,,,-122.4151808,37.7852037
+Alexander Hamilton,,,-122.4151808,37.7852037
+Ambassador Hotel,,,-122.4099596,37.7839057
+Antler's Club,,,-122.4170643,37.7816178
+Asia Restaurant,,,-122.4092883,37.7843712
+Backstage,,,-122.408163,37.7861544
+Bellevue Hotel: Hunt Room,,,-122.4119065,37.7866571
+Blue & Gold,,,-122.4115166,37.7833593
+Blue Lamp,,,-122.4124375,37.7866427
+Bobby's Club,,,-122.4089408,37.7844172
+Bone's Corner,,,-122.4106169,37.7843359
+Bunny's Waffle Shops,,,-122.4119616,37.7809451
+Buccaneer,,,-122.4104035,37.7833779
+Burbank Club,,,-122.4144648,37.7840018
+California Billiard Parlor / San Francisco Billiard Parlor,,,-122.4112267,37.7818338
+Caruso's,,,-122.4107321,37.7837642
+"Chateau, The",,,-122.4110216,37.7829093
+CIO Canteen,,,-122.413234,37.7822291
+Club Lafayette,,,-122.4156415,37.7831178
+Club Marino,,,-122.4125057,37.785088
+Club Roberti,,,-122.4094482,37.784948
+Club Taylor,,,-122.4112272,37.7844585
+Club Vanderbelt,,,-122.4095777,37.7855271
+Connie's (red cover),,,-122.4113727,37.7839813
+Connie's (black cover),,,-122.4113727,37.7839813
+Coon Hollow,,,-122.4122308,37.787075
+Dawson Hotel,,,-122.4110658,37.7833796
+Day and Nite,,,-122.4106169,37.7843359
+Dice Shaker's,,,-122.4112272,37.7844585
+Diller's Kosher Style Restaurant,,,-122.4096145,37.7850626
+Downtown Bowl,,,-122.4122437,37.7837774
+Eddie Roberts Cocktail Lounge,,,-122.4096073,37.7856943
+Eddy Garage,,,-122.4165943,37.7833475
+Edinburgh Castle,,,-122.4189859,37.7861924
+El Rosa Hotel,,,-122.4118637,37.783379
+El Rosa Hotel,,,-122.4118637,37.783379
+Fan Club,,,-122.4128292,37.783063
+Fay's Cocktail Bar,,,-122.4158483,37.7837085
+Fay's Cocktail Bar,,,-122.4158483,37.7837085
+Fay's Cocktail Bar,,,-122.4158483,37.7837085
+Fay's Cocktail Bar,,,-122.4158483,37.7837085
+Federal Lounge & Coffee Shop,,,-122.4135494,37.7811232
+"Fern Hotel, The",,,-122.414495,37.7834977
+Film Barber Shop,,,-122.4157778,37.7823474
+Film Cavern,,,-122.412543,37.781787
+Four-O-Club,,,-122.4096106,37.7857129
+Gaylord Hotel,,,-122.4131179,37.7871583
+Gene Compton's,,,-122.411078,37.783428
+George Dobbs Drive-In,,,-122.417474,37.7834361
+Golden Bubble,,,-122.4077109,37.7857741
+Golden State Hotel,,,-122.4077777,37.7858449
+Governor Grill (silver cover); Also: Teakwood Room & Rose Room / Governor Hotel,,,-122.4123454,37.7832645
+Governor Grill (black cover),,,-122.4123454,37.7832645
+"Governor Hotel, The",,,-122.4122045,37.7831493
+Grand Hotel,,,-122.4109508,37.7829257
+"Harvey M. Joy Associated Hotels: Hotel Manx, Hotel Clunie, Hotel Gartland",,,-122.4188645,37.7859167
+Harrington's (blue & gold cover),,,-122.4122374,37.7814846
+Harrington's (blue & gold cover),,,-122.4068061,37.7859363
+Harrington's (blue & gold cover),,,-122.3991919,37.794057
+Herrington's (note misspelling?; green & yellow cover),,,-122.4122374,37.7814846
+"Why Not, The",,,-122.414952,37.7847772
+Hotel Californian (red cover),,,-122.411544,37.7861862
+Hotel Californian (yellow cover),,,-122.411544,37.7861862
+Hotel Clark (red cover),,,-122.4109775,37.7841597
+Hotel Clark (black & gold cover),,,-122.4113046,37.7839854
+Hotel Clark (black & gold cover),,,-122.4113046,37.7839854
+Hotel Columbia,,,-122.4116001,37.7858337
+Dahlia Hotel,,,-122.4103389,37.7833917
+Hotel Don,,,-122.4114919,37.7856074
+Hotel Don,,,-122.4114919,37.7856074
+Hotel Empire,,,-122.4139685,37.7810869
+Hotel La Salle (blue & gold cover - 2 of these matchbooks),,,-122.416118,37.782912
+Hotel La Salle (black & gold cover) / Explorer Room,,,-122.416118,37.782912
+Hotel Oxford (cream cover),,,-122.4094065,37.783536
+Hotel Oxford (Brown and green cover),,,-122.4094065,37.783536
+Hotel Oxford (brown cover) / Oxford Picadilly Circus,,,-122.4094065,37.783536
+Hotel Oxford (blue cover - at least 2 more of same book),,,-122.4094065,37.783536
+Hotel Powell,,,-122.4080643,37.7850377
+Hotel President,,,-122.4187199,37.7858053
+Hotel Ritz,,,-122.4112871,37.7843165
+Hotel Ritz,,,-122.4112871,37.7843165
+Hotel Roosevelt (dark red & white cover),,,-122.4126061,37.7839413
+Hotel Roosevelt (off white cover) / Palace Food & Liquor Store,,,-122.4126061,37.7839413
+Hotel Senator (blue-green cover),,,-122.4149153,37.7843921
+Hotel Senator (gold cover),,,-122.4149153,37.7843921
+Hotel Senator (green cover),,,-122.4149153,37.7843921
+Hotel Sentinel,,,-122.4172732,37.7832073
+Hotel Sentinel (brown),,,-122.4149153,37.7843921
+Hotel Shaw,,,-122.4122197,37.7807345
+Hotel Virginia,,,-122.4095655,37.7865004
+Hunter Club,,,-122.417009,37.78616
+Islam Temple,,,-122.4142125,37.7867684
+Jefferson Hotel,,,-122.4150038,37.7839182
+Jerry Mahoney's Club,,,-122.4151587,37.785713
+Joe Marcellino's,,,-122.4134807,37.7869592
+Jonell's,,,-122.4128835,37.7847671
+Jones Cafe,,,-122.413293,37.786029
+Kit Kat Club,,,-122.4090676,37.7841271
+Levy Tailoring Co.,,,-122.411886,37.7814738
+Little Brown Jug,,,-122.4158483,37.7837085
+Loyal Order of Moose,,,-122.418809,37.7848325
+Ludwig's Dance Studio,,,-122.4121746,37.7870817
+Marie's Kum Bak Klub,,,-122.4142209,37.7847889
+Mark Twain Hotel / Gold Cocktail Lounge,,,-122.4114919,37.7856074
+Mason Hotel,,,-122.4096056,37.7844612
+Bone's Corner,,,-122.4095931,37.7835142
+Miller's Tavern,,,-122.4144648,37.7840018
+Mocambo Club,,,-122.4076036,37.7857469
+Music Box,,,-122.418809,37.7848325
+New Dalt Hotel (yellow/black/red/blue cover),,,-122.409886,37.783613
+New Dalt Hotel (pink cover),,,-122.409886,37.783613
+New Golden Gate Hotel,,,-122.4115746,37.7834211
+New Golden Gate Hotel,,,-122.4115746,37.7834211
+New Golden Gate Hotel,,,-122.4115746,37.7834211
+New Waldorf Hotel,,,-122.4120614,37.7825338
+Newport Hotel,,,-122.4132585,37.7860489
+O'Brien's Cocktail Lounge (green/blue/yellow cover),,,-122.4170643,37.7816178
+O'Brien's Cocktail Lounge (yellow/red/blue cover),,,-122.4170643,37.7816178
+Olympic Hotel (grey cover - multiples),,,-122.4114669,37.7841903
+Olympic Hotel (red cover - multiple copies),,,-122.4114669,37.7841903
+One-Ten Eddy (red cover),,,-122.4095094,37.7845014
+One-Ten Eddy (green cover),,,-122.4095094,37.7845014
+Original Joe's (gold/red cover),,,-122.4106652,37.7839092
+Original Joe's (blue/gold cover),,,-122.4106652,37.7839092
+Padre Hotel / Padre Lounge,,,-122.412696,37.7834583
+Pam Pam Coffee Shop,,,-122.4119065,37.7866571
+Paris Louvre,,,-122.4151808,37.7852037
+Peter Pan,,,-122.408787,37.7837637
+Phil Lehr's Steakery,,,-122.4109306,37.7849443
+Pirates Cave,,,-122.40995,37.783035
+Polo's,,,-122.4090592,37.7839519
+President Room,,,-122.4188437,37.7858059
+President Room,,,-122.4188437,37.7858059
+President Room,,,-122.4188437,37.7858059
+Queen's Restaurant,,,-122.4105435,37.7832478
+Rafael's,,,-122.412965,37.784422
+Rainbow Room,,,-122.4096341,37.7866347
+Rebound Club,,,-122.4146193,37.7867078
+Red Robin,,,-122.4130617,37.7840735
+RKO Grill,,,-122.4110909,37.7826831
+Robin Hood (green cover),,,-122.409672,37.7846083
+Robin Hood (white/red/black cover),,,-122.409672,37.7846083
+Rohlf's,,,-122.4107842,37.7832142
+Romarco's,,,-122.4118611,37.7833763
+Rosy's Supper Club,,,-122.412965,37.784422
+S. S. Sloppy Joe's,,,-122.4088485,37.7855056
+Saw Dust Club,,,-122.4145127,37.7835854
+Ship's Bell (Harriet's),,,-122.4131245,37.7858891
+Shoe Shine Stand (Warfield Theater),,,-122.4101182,37.7826582
+Silva's Club,,,-122.4107207,37.7839713
+Silver Dollar,,,-122.4088249,37.7844326
+Silver Dollar,,,-122.4088249,37.7844326
+Silver Rail,,,-122.4100064,37.782939
+State Wine & Liquor Store,,,-122.413964,37.7854476
+Sterns,,,-122.4081214,37.7856048
+Tahitian Hut,,,-122.416591,37.7861512
+"Bowery, The",,,-122.4097736,37.784401
+"Broiler, The",,,-122.4120614,37.7824221
+"Cheateau, The",,,-122.4110216,37.7829093
+"Irisher, The",,,-122.4094495,37.7849543
+"Port Hole, The (blue/cream cover)",,,-122.4113983,37.7833739
+"Port Hole, The (red/white/blue cover)",,,-122.4113983,37.7833739
+"Port Hole, The (grey/blue/yellow cover)",,,-122.4091126,37.7833108
+"Top Drawer, The",,,-122.4156095,37.7827984
+"Tiffinette, The",,,-122.4111155,37.7835269
+Til Two,,,-122.4147502,37.7848256
+Tin Pan Alley,,,-122.4112773,37.7832767
+Tiny's (red/cream cover),,,-122.4087835,37.7887704
+Tiny's (black/gold cover),,,-122.4110216,37.7829093
+Tiny's Waffle Shop (blue/red/black cover) / Menlo Social Club,,,-122.4095931,37.7835142
+Tommy's Joynt,,,-122.413856,37.7864295
+Tommy's Joynt,,,-122.413856,37.7864295
+Tortuga,,,-122.412965,37.784422
+"Turf Inn, The",,,-122.4095151,37.7835243
+Bobby Watson Tuxedo Club,,,-122.4111122,37.7829663
+Vincent Hotel / Alpine Hotel,,,-122.4166667,37.7823922
+Will King's,,,-122.4110909,37.7826831
+Y.M.C.A. Hotel (silver/red cover),,,-122.4148047,37.7825092
+Y.M.C.A. Hotel (black/green cover),,,-122.4148047,37.7825092
+Lena Widget's,,,-122.4188073,37.7821976
