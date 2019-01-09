@@ -21,6 +21,13 @@
     width: 960px;
     height:960px;
 }
+
+/* add style to the popup here */
+.custom .leaflet-popup-tip,
+.custom .leaflet-popup-content-wrapper {
+    background: #333333;
+    color: #cccccc;
+}
 </style>
 
 </head>
@@ -40,9 +47,21 @@
     attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
     }).addTo(map);
 
+    // specify popup options 
+    var customOptions =
+      {
+        'maxWidth': '500',
+        'className' : 'custom'
+      }
+
     var customLayer = L.geoJSON(null, {
       onEachFeature: function (feature, layer) {
-        layer.bindPopup(feature.properties.popup);
+        layer.bindPopup(
+          feature.properties.Name
+          + "<br>" + feature.properties.Description
+          + "<br><img src='./images/" + feature.properties.Image
+          + "' width='350px'/>"
+        ,customOptions);
       }
     });
 
