@@ -58,6 +58,7 @@
       onEachFeature: function (feature, layer) {
         layer.bindPopup(
           feature.properties.Name
+          + "<br>" + feature.properties.Address
           + "<br>" + feature.properties.Description
           + "<br><img src='./images/" + feature.properties.Image
           + "' width='350px'/>"
