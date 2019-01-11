@@ -57,7 +57,7 @@
     var customLayer = L.geoJSON(null, {
       onEachFeature: function (feature, layer) {
         layer.bindPopup(
-          "<b>" + feature.properties.Name + "</b>"
+          "<h2>" + feature.properties.Name + "</h2>"
           + "<br>" + feature.properties.Address
           + "<br>" + feature.properties.Description
           + "<br><img src='./images/" + feature.properties.Image
